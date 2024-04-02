@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+        <h1>GossipLove</h1>
+    </header>
+    <div class="information">
+        <form action="">
+            <div class="gender">
+                <h4>vous etes (sexe):</h4>
+                <select name="gender" id="gender">
+                    <option value="female">une femme</option>
+                    <option value="male">un homme</option>
+                </select>
+            </div>
+            <div class="searchGender">
+                <h4>vous cherchez ? :</h4>
+                <select name="searchGender" id="searchGender">
+                    <option value="male">un homme</option>
+                    <option value="female">une femme</option>
+                    <option value="all">pas de preference</option>
+                </select>
+            </div>
+
+            <div class="log">
+                <div class="log_enter">
+                    <input type="text" name="pseudo" placeholder="quel est votre nom ?"><br>
+                </div>
+                <div class="log_enter">
+                    <label for="birth">votre date de naissance</label>
+                    <input type="date" name="birth" id="birth"><br>
+                </div>
+                <div class="log_enter">
+                    <input type="email" name="email" placeholder="entrez votre email"><br>
+                </div>
+                <div class="log_enter">
+                    <input type="password" name="code" placeholder="un mot de passe"><br>
+                </div>
+                <div class="log_enter">
+                    <input type="password" name="Rcode" placeholder="repeter le mot de passe"><br>
+                </div>
+            </div>
+
+            <div class="note">
+                <p>vous avez deja un coupe? <a href="login.html">connexion</a></p>
+            </div>
+            <button type="submit">Inscription</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
